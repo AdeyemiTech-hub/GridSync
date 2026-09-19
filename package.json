@@ -1,0 +1,13 @@
+{
+  "name": "gridsync",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Run your devices in the greenest hour, and prove it on-chain.",
+  "workspaces": [
+    "contracts"
+  ],
+  "scripts": {
+    "test:contracts": "npm test --workspace contracts",
+    "compile:contracts": "npm run compile --workspace contracts"
+  }
+}
